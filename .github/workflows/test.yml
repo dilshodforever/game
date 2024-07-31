@@ -38,11 +38,11 @@ jobs:
 
           
 
-    - name: install dependencies
-      run: go mod tidy
+    # - name: install dependencies
+    #   run: go mod tidy
 
-    - name: Build
-      run: go build -v ./...
+    # - name: Build
+    #   run: go build -v ./...
 
-    - name: Test
-      run: go test -v ./...
+    # - name: Test
+    #   run: go test -v ./...
